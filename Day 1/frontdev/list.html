@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css"
           href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
     <script type="text/javascript" src="scripts/app.js"></script>
+    <script type="text/javascript" src="SortableTable.js"></script>
 </head>
 <body>
 <h1>HR Employees List Page</h1>
@@ -52,7 +53,14 @@
 
     </div>
 </div>
-
+<input id="sort" type="number" min="1" max="4"/><button id="sortby" onclick="sortFunctions()">Sort by</button>
+<br>
+<br>
+<br>
+<input id="find" type="text"/><button id="findword" onclick="findWord()">Find employee</button>
+<br>
+<br>
+<br>
 <div>
     <a href="index.html">Back to Home Page</a>
 </div>
