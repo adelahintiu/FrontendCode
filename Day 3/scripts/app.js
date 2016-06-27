@@ -14,8 +14,8 @@ hrApp .config(['$routeProvider',
             templateUrl: 'views/employeeList.html',
             controller: 'EmployeeListController'
         }).
-        when('/employeeview', {
-            templateUrl: 'views/employeeView.html',
+        when('/employeeview/:employeeid', {
+            templateUrl: 'views/employeeview.html',
             controller: 'EmployeeViewController'
         }).
         when('/numbers', {

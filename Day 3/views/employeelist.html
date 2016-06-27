@@ -14,7 +14,7 @@
         <!--TODO #HR4 add Actions column-->
         <th class="col-lg-3 text-center">Actions</th>
     </tr>
-    <tr ng-repeat="employee in employees">
+    <tr ng-repeat="employee in employees track by $index">
         <td class="text-center">
             {{employee.employeeId}}
         </td>
@@ -22,7 +22,7 @@
             {{employee.firstName}}
         </td>
         <td class="text-center">
-            {{employee.lastName}}
+            {{employee.lastName }}
         </td>
         <td class="text-center">
             {{employee.email}}

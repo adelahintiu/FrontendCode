@@ -1,10 +1,11 @@
-hrApp.value('employeeActionsService', [{
-    url:'#/employeeslist',
-    label:'Employee List'
-},
+hrApp.value('employeeActionsService', [
     {
-        url: "#/employeeadd",
-        label: "Add employee"
-    }]
+        url: '#/employeelist',
+        label: 'Employee List'
+    },
+    {
+        url:'#/employeeadd',
+        label:'Add employee'
+    }
+]);
 
-);
